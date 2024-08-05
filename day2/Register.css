@@ -1,0 +1,109 @@
+/* Container styling */
+.register-container {
+    max-width: 370px;
+    margin: 50px auto;
+    padding: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Heading styling */
+.register-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #444;
+    font-size: 28px;
+}
+
+/* Form element styling */
+.register-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 340px;
+}
+
+/* Label styling */
+.register-container label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #555;
+}
+
+/* Input field styling */
+.register-container input[type="text"],
+.register-container input[type="date"],
+.register-container input[type="email"],
+.register-container input[type="password"] {
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 14px;
+    max-width: 300px;
+    transition: border 0.3s ease;
+}
+
+.register-container input[type="text"]:focus,
+.register-container input[type="date"]:focus,
+.register-container input[type="email"]:focus,
+.register-container input[type="password"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Select dropdown styling */
+.register-container select {
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: border 0.3s ease;
+}
+
+.register-container select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Error message styling */
+.register-container span {
+    color: #d9534f;
+    font-size: 13px;
+}
+
+/* Submit button styling */
+.register-container button {
+    padding: 12px;
+    background-color: #5028a7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.register-container button:hover {
+    background-color: #5028a7;
+}
+
+/* Message styling */
+.register-container p {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #666;
+}
+
+.register-container a {
+    color: #5028a7 ;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.register-container a:hover {
+    text-decoration: underline;
+}
